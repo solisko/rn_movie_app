@@ -51,7 +51,7 @@ export default function Index() {
             Error: {moviesError?.message || trendingMoviesError?.message}
           </Text>
         ) : (
-          <View className="flex-1 mt-5">
+          <View className="flex-1">
             <SearchBar
               onPress={() => router.push("/search")}
               placeholder="Search for a movie"
